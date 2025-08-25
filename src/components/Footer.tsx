@@ -8,12 +8,13 @@ const Footer = () => {
           <div>
             <Logo variant="white" className="mb-4" />
             <p className="opacity-90 mb-6">
-              Votre partenaire de confiance pour le linge d'hôtel de qualité supérieure au Maroc.
+              Solution complète adaptée aux besoins des hôtels, riads et maisons d'hôtes. +25 ans d'expérience dans le textile.
             </p>
             <div className="space-y-2 text-sm">
               <p>📍 Casablanca, Maroc</p>
-              <p>📞 +212 XXX XXX XXX</p>
-              <p>✉️ contact@kenzamine.ma</p>
+              <p>📞 +212 6 63 47 03 02</p>
+              <p>✉️ Kenzamine@outlook.com</p>
+              <p className="font-semibold mt-2">Abdeslam CHRAIBI - Gérant</p>
             </div>
           </div>
           

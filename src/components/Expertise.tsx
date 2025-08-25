@@ -1,30 +1,30 @@
 const Expertise = () => {
   const stats = [
-    { number: "15+", label: "Années d'expérience" },
-    { number: "200+", label: "Hôtels partenaires" },
-    { number: "99%", label: "Satisfaction client" },
-    { number: "24h", label: "Livraison express" }
+    { number: "25+", label: "Années d'expérience textile" },
+    { number: "35+", label: "Années d'expertise du gérant" },
+    { number: "24h", label: "Livraison rapide" },
+    { number: "100%", label: "Accompagnement personnalisé" }
   ];
 
   const advantages = [
     {
-      title: "Expertise Reconnue",
-      description: "Plus de 15 ans d'expérience dans le secteur hôtelier marocain",
-      icon: "🏆"
-    },
-    {
-      title: "Qualité Garantie",
-      description: "Produits certifiés et testés selon les standards internationaux",
-      icon: "✨"
+      title: "Expertise de +25 ans",
+      description: "Plus de 25 ans d'expérience dans le textile avec un gérant expert depuis +35 ans",
+      icon: "⭐"
     },
     {
       title: "Prix Compétitifs",
-      description: "Tarifs avantageux grâce à nos partenariats directs avec les fabricants",
+      description: "Production sur mesure à prix compétitifs",
       icon: "💰"
     },
     {
-      title: "Service Personnalisé",
-      description: "Solutions sur mesure adaptées aux besoins spécifiques de chaque établissement",
+      title: "Livraison Partout au Maroc",
+      description: "Livraison rapide via nos transporteurs partenaires ou selon votre choix",
+      icon: "🚚"
+    },
+    {
+      title: "Accompagnement Personnalisé",
+      description: "Nous définissons vos besoins et la fréquence idéale de réapprovisionnement",
       icon: "🎯"
     }
   ];

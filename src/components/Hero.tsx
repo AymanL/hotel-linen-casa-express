@@ -17,8 +17,8 @@ const Hero = () => {
           <span className="block text-accent">de Qualité Supérieure</span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-          KENZAMINE, votre partenaire de confiance pour le linge d'hôtel au Maroc. 
-          Expertise reconnue, prix compétitifs et livraison rapide dans tout le royaume.
+          KENZAMINE, solution complète adaptée aux besoins des hôtels, riads et maisons d'hôtes. 
+          +25 ans d'expérience dans le textile, production sur mesure et livraison rapide partout au Maroc.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="text-lg px-8 py-6">
