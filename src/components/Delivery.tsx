@@ -51,9 +51,6 @@ const Delivery = () => {
               </div>
             </div>
 
-            <Button size="lg" className="mb-8">
-              Calculer les frais de livraison
-            </Button>
 
             <div>
               <h4 className="font-semibold mb-4">Villes desservies :</h4>
