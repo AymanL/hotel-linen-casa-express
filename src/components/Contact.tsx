@@ -40,7 +40,7 @@ const Contact = () => {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="font-semibold text-lg">Kenzamine@outlook.com</p>
+              <p className="font-semibold text-lg">kenzamine.textile@gmail.com</p>
               <Button variant="outline" className="mt-4 w-full">
                 Envoyer un email
               </Button>

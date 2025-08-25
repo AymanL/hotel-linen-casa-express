@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm">
               <p>📍 Casablanca, Maroc</p>
               <p>📞 +212 6 63 47 03 02</p>
-              <p>✉️ Kenzamine@outlook.com</p>
+              <p>✉️ kenzamine.textile@gmail.com</p>
               <p className="font-semibold mt-2">Abdeslam CHRAIBI - Gérant</p>
             </div>
           </div>
