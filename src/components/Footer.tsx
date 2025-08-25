@@ -43,9 +43,14 @@ const Footer = () => {
             <p className="text-sm opacity-90 mb-4">
               Demandez votre devis gratuit dès maintenant
             </p>
-            <button className="bg-white text-primary px-6 py-2 rounded-md font-semibold hover:bg-opacity-90 transition-all">
+            <a 
+              href="https://forms.office.com/e/t0VLte9Rm9" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-white text-primary px-6 py-2 rounded-md font-semibold hover:bg-opacity-90 transition-all inline-block"
+            >
               Demander un devis
-            </button>
+            </a>
           </div>
         </div>
         

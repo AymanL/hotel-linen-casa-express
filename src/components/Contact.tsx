@@ -58,8 +58,10 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <p className="text-sm mb-4">Demande rapide et personnalisée</p>
-              <Button className="w-full" size="lg">
-                Remplir le formulaire
+              <Button className="w-full" size="lg" asChild>
+                <a href="https://forms.office.com/e/t0VLte9Rm9" target="_blank" rel="noopener noreferrer">
+                  Remplir le formulaire
+                </a>
               </Button>
             </CardContent>
           </Card>
