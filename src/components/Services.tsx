@@ -9,6 +9,11 @@ const Services = () => {
       features: ["100% coton", "Résistant au lavage industriel", "Diverses tailles disponibles"]
     },
     {
+      title: "Couettes",
+      description: "Couettes de qualité professionnelle pour un confort thermique optimal.",
+      features: ["Garnissage hypoallergénique", "Thermorégulation parfaite", "Lavage industriel garanti"]
+    },
+    {
       title: "Linge de Bain",
       description: "Serviettes, peignoirs et tapis de bain d'une douceur exceptionnelle.",
       features: ["Absorption optimale", "Séchage rapide", "Longue durée de vie"]
