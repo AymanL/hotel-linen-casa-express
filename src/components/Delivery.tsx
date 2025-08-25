@@ -16,10 +16,16 @@ const Delivery = () => {
               Livraison Rapide
               <span className="block text-primary">Dans Tout le Maroc</span>
             </h2>
-            <p className="text-xl text-muted-foreground mb-8">
-              Notre réseau logistique couvre l'ensemble du territoire marocain pour vous garantir 
-              une livraison rapide et sécurisée, où que vous soyez.
-            </p>
+            <div className="space-y-4 mb-8">
+              <div className="bg-muted/50 p-4 rounded-lg">
+                <h4 className="font-semibold text-primary mb-2">🚚 Casablanca et villes proches</h4>
+                <p className="text-muted-foreground">Livraison en 12h - 24h</p>
+              </div>
+              <div className="bg-muted/50 p-4 rounded-lg">
+                <h4 className="font-semibold text-primary mb-2">🇲🇦 Tout le Maroc</h4>
+                <p className="text-muted-foreground">Livraison en 24h - 72h</p>
+              </div>
+            </div>
             
             <div className="space-y-6 mb-8">
               <div className="flex items-start space-x-4">
