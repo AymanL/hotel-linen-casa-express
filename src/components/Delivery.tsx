@@ -1,4 +1,5 @@
 import deliveryImage from "@/assets/delivery-morocco.jpg";
+import moroccoFlagLarge from "@/assets/morocco-flag-large.jpg";
 import { Button } from "@/components/ui/button";
 
 const Delivery = () => {
@@ -52,11 +53,18 @@ const Delivery = () => {
             </div>
 
 
-            <div>
-              <h4 className="font-semibold mb-4">Villes desservies :</h4>
+            <div className="relative">
+              <div className="flex items-center gap-4 mb-4">
+                <img 
+                  src={moroccoFlagLarge} 
+                  alt="Drapeau du Maroc"
+                  className="w-16 h-12 rounded-lg shadow-md hover-scale"
+                />
+                <h4 className="font-semibold">Villes desservies :</h4>
+              </div>
               <div className="flex flex-wrap gap-2">
                 {cities.map((city, index) => (
-                  <span key={index} className="px-3 py-1 bg-muted rounded-full text-sm">
+                  <span key={index} className="px-3 py-1 bg-muted rounded-full text-sm hover-scale">
                     {city}
                   </span>
                 ))}
