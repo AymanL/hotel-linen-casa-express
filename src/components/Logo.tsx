@@ -8,11 +8,17 @@ interface LogoProps {
 const Logo = ({ className, variant = "default" }: LogoProps) => {
   return (
     <div className={cn(
-      "font-bold text-2xl tracking-wide",
-      variant === "default" ? "text-primary" : "text-white",
+      "flex items-center gap-3",
       className
     )}>
-      KENZAMINE
+      <div className={cn(
+        "font-bold text-3xl tracking-widest uppercase",
+        "bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent",
+        "drop-shadow-sm",
+        variant === "white" && "from-white to-white/90"
+      )}>
+        KENZAMINE
+      </div>
     </div>
   );
 };

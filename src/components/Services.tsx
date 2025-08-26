@@ -49,7 +49,7 @@ const Services = () => {
       features: [
         "Création de prototypes et échantillons",
         "Large choix de tissus et finitions",
-        "Logo brodé, tissé ou imprimé",
+        "Logo brodé ou tissé",
         "Adaptation aux normes hôtelières"
       ]
     }

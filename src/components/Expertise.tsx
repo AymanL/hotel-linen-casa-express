@@ -35,7 +35,7 @@ const Expertise = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Notre Expertise</h2>
           <p className="text-xl opacity-90 max-w-3xl mx-auto">
-            Casablanca, leader du linge d'hôtel au Maroc
+            Casablanca, expert du linge d'hôtel au Maroc
           </p>
         </div>
 
