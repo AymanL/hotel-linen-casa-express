@@ -6,22 +6,52 @@ const Services = () => {
     {
       title: "Draps et Housses",
       description: "Draps de qualité hôtelière, housses de couette et oreillers pour un confort optimal.",
-      features: ["100% coton", "Résistant au lavage industriel", "Diverses tailles disponibles"]
+      features: [
+        "Coton 100% & Poly-coton premium", 
+        "Percale et satin de qualité supérieure",
+        "Confection sur mesure disponible",
+        "Finitions standard ou logo personnalisé"
+      ]
     },
     {
       title: "Couettes",
       description: "Couettes de qualité professionnelle pour un confort thermique optimal.",
-      features: ["Garnissage hypoallergénique", "Thermorégulation parfaite", "Lavage industriel garanti"]
+      features: [
+        "Garnissage hypoallergénique & fibres naturelles", 
+        "Enveloppe coton percale ou microfibre",
+        "Thermorégulation parfaite",
+        "Confection avec logo brodé possible"
+      ]
     },
     {
       title: "Linge de Bain",
       description: "Serviettes, peignoirs et tapis de bain d'une douceur exceptionnelle.",
-      features: ["Absorption optimale", "Séchage rapide", "Longue durée de vie"]
+      features: [
+        "Éponge coton bouclée 100% & coton/bambou",
+        "Grammages de 400 à 600 g/m²",
+        "Absorption optimale et séchage rapide",
+        "Broderie et personnalisation disponibles"
+      ]
     },
     {
       title: "Linge de Table",
       description: "Nappes, serviettes de table et chemins de table élégants.",
-      features: ["Finitions soignées", "Résistant aux taches", "Design moderne"]
+      features: [
+        "Lin, coton damassé & mélanges poly-coton",
+        "Finitions ourlets standards ou sur mesure",
+        "Traitement anti-taches disponible",
+        "Broderie logo et personnalisation"
+      ]
+    },
+    {
+      title: "Confection Sur Mesure",
+      description: "Service complet de confection personnalisée selon vos spécifications.",
+      features: [
+        "Création de prototypes et échantillons",
+        "Large choix de tissus et finitions",
+        "Logo brodé, tissé ou imprimé",
+        "Adaptation aux normes hôtelières"
+      ]
     }
   ];
 
