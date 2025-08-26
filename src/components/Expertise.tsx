@@ -1,7 +1,7 @@
 const Expertise = () => {
   const stats = [
-    { number: "25+", label: "Années d'expérience textile" },
-    { number: "35+", label: "Années d'expertise du gérant" },
+    { number: "25+", label: "Années dans le textile" },
+    { number: "35+", label: "Ans d'expérience du gérant" },
     { number: "24h", label: "Livraison rapide" },
     { number: "100%", label: "Accompagnement personnalisé" }
   ];
