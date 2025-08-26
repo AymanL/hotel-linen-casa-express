@@ -1,6 +1,6 @@
 const Expertise = () => {
   const stats = [
-    { number: "25+", label: "Années dans le textile" },
+    { number: "25+", label: "Années dans le linge hôtelier" },
     { number: "35+", label: "Ans d'expérience du gérant" },
     { number: "24h", label: "Livraison rapide" },
     { number: "100%", label: "Accompagnement personnalisé" }
@@ -9,7 +9,7 @@ const Expertise = () => {
   const advantages = [
     {
       title: "Expertise de +25 ans",
-      description: "Plus de 25 ans d'expérience dans le textile avec un gérant expert depuis +35 ans",
+      description: "Plus de 25 ans d'expérience dans le linge hôtelier avec un gérant expert depuis +35 ans",
       icon: "⭐"
     },
     {
