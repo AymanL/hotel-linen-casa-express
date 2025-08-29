@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/hotel-linen-casa-express/", // GitHub Pages base path
+  base: mode === 'production' ? '/' : "/hotel-linen-casa-express/",
   build: {
     outDir: "dist",
     assetsDir: "assets",
