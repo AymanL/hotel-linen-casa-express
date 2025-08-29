@@ -1,73 +1,128 @@
-# Welcome to your Lovable project
+# Hotel Linen Casa Express
 
-## Project info
+Professional hotel linen services in Morocco. Quality bedding, towels, and hospitality textiles for hotels and resorts.
 
-**URL**: https://lovable.dev/projects/5a59bc90-fa27-4e9f-9754-43d843543d5a
+## 🚀 Live Demo
 
-## How can I edit this code?
+Visit the live site: [https://ayman.github.io/hotel-linen-casa-express](https://ayman.github.io/hotel-linen-casa-express)
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/5a59bc90-fa27-4e9f-9754-43d843543d5a) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## 🛠️ Technologies Used
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Fast build tool and dev server
+- **TypeScript** - Type-safe JavaScript
+- **React 18** - Modern React with hooks
+- **shadcn/ui** - Beautiful, accessible UI components
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Router** - Client-side routing
 
-## How can I deploy this project?
+## 🏃‍♂️ Quick Start
 
-Simply open [Lovable](https://lovable.dev/projects/5a59bc90-fa27-4e9f-9754-43d843543d5a) and click on Share -> Publish.
+### Prerequisites
 
-## Can I connect a custom domain to my Lovable project?
+- Node.js 18+ and npm
 
-Yes, you can!
+### Local Development
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```bash
+# Clone the repository
+git clone https://github.com/ayman/hotel-linen-casa-express.git
+cd hotel-linen-casa-express
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+The app will be available at `http://localhost:8080`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist/` directory.
+
+## 🌐 GitHub Pages Deployment
+
+This project is configured for automatic deployment to GitHub Pages.
+
+### Automatic Deployment (Recommended)
+
+1. **Push to main branch**: The GitHub Actions workflow will automatically build and deploy your site
+2. **Check Actions tab**: Go to your repo's Actions tab to monitor deployment progress
+3. **Wait for deployment**: It may take a few minutes for changes to appear
+
+### Manual Deployment
+
+If you need to deploy manually:
+
+```bash
+npm run deploy
+```
+
+This will build the project and push it to the `gh-pages` branch.
+
+### Configuration
+
+The project is configured with:
+- **Base path**: `/hotel-linen-casa-express/` (matches your repo name)
+- **Build output**: `dist/` directory
+- **GitHub Actions**: Automatic build and deploy on push to main
+
+## 📁 Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   ├── Header.tsx      # Site header
+│   ├── Hero.tsx        # Hero section
+│   ├── Services.tsx    # Services showcase
+│   └── ...
+├── pages/              # Page components
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── assets/             # Images and static assets
+```
+
+## 🔧 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+- `npm run deploy` - Deploy to GitHub Pages
+
+## 🎨 Customization
+
+### Styling
+- Modify `tailwind.config.ts` for Tailwind CSS configuration
+- Update `src/index.css` for global styles
+- Component-specific styles are co-located with components
+
+### Content
+- Update component content in `src/components/`
+- Modify page content in `src/pages/`
+- Update meta information in `index.html`
+
+## 🚨 Troubleshooting
+
+### Site Not Loading on GitHub Pages
+1. Check that the base path in `vite.config.ts` matches your repository name
+2. Ensure GitHub Pages is enabled in your repository settings
+3. Verify the deployment branch is set to `gh-pages`
+4. Check the Actions tab for build errors
+
+### Build Errors
+1. Ensure all dependencies are installed: `npm install`
+2. Check for TypeScript errors: `npm run lint`
+3. Verify Node.js version compatibility
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
