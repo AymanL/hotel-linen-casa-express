@@ -21,11 +21,15 @@ const Hero = () => {
           +25 ans d'expérience dans le textile, production sur mesure et livraison rapide partout au Maroc.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="text-lg px-8 py-6">
-            Découvrir nos services
+          <Button size="lg" className="text-lg px-8 py-6" asChild>
+            <a href="#services">
+              Découvrir nos services
+            </a>
           </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-primary">
-            Demander un devis
+          <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-primary" asChild>
+            <a href="https://forms.gle/VkPxe9QYZgNYv61v5" target="_blank" rel="noopener noreferrer">
+              Demander un devis
+            </a>
           </Button>
         </div>
       </div>

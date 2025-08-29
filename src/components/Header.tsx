@@ -29,8 +29,10 @@ const Header = () => {
               Contact
             </a>
           </nav>
-          <Button className="hidden md:inline-flex">
-            Demander un devis
+          <Button className="hidden md:inline-flex" asChild>
+            <a href="https://forms.gle/VkPxe9QYZgNYv61v5" target="_blank" rel="noopener noreferrer">
+              Demander un devis
+            </a>
           </Button>
         </div>
       </div>

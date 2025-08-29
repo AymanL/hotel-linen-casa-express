@@ -43,14 +43,24 @@ const Footer = () => {
             <p className="text-sm opacity-90 mb-4">
               Demandez votre devis gratuit dès maintenant
             </p>
-            <a 
-              href="https://forms.office.com/e/t0VLte9Rm9" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-white text-primary px-6 py-2 rounded-md font-semibold hover:bg-opacity-90 transition-all inline-block"
-            >
-              Demander un devis
-            </a>
+            <div className="space-y-3">
+              <a 
+                href="https://forms.gle/VkPxe9QYZgNYv61v5" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-white text-primary px-6 py-2 rounded-md font-semibold hover:bg-opacity-90 transition-all inline-block w-full text-center"
+              >
+                Demander un devis
+              </a>
+              <a 
+                href="https://forms.gle/Ft2LRzvJwBXFfUgj7" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-white/10 border border-white text-white px-6 py-2 rounded-md font-semibold hover:bg-white/20 transition-all inline-block w-full text-center"
+              >
+                RDV téléphonique
+              </a>
+            </div>
           </div>
         </div>
         

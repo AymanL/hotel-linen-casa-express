@@ -53,16 +53,22 @@ const Contact = () => {
                 📝 Devis
               </CardTitle>
               <CardDescription>
-                Formulaire de demande
+                Demande rapide et personnalisée
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-4">Demande rapide et personnalisée</p>
-              <Button className="w-full" size="lg" asChild>
-                <a href="https://forms.office.com/e/t0VLte9Rm9" target="_blank" rel="noopener noreferrer">
-                  Remplir le formulaire
-                </a>
-              </Button>
+              <div className="space-y-3">
+                <Button className="w-full" size="lg" asChild>
+                  <a href="https://forms.gle/VkPxe9QYZgNYv61v5" target="_blank" rel="noopener noreferrer">
+                    Demander un devis
+                  </a>
+                </Button>
+                <Button variant="outline" className="w-full" asChild>
+                  <a href="https://forms.gle/Ft2LRzvJwBXFfUgj7" target="_blank" rel="noopener noreferrer">
+                    RDV téléphonique
+                  </a>
+                </Button>
+              </div>
             </CardContent>
           </Card>
         </div>
